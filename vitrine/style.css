@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;800&family=Fasthand&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Shalimar&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h3{
+    color: #717171;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px ;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .container .card {
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url(https://cdn.pixabay.com/photo/2018/05/01/10/38/burger-3365223_960_720.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+
+}
+header h3{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h4{
+   margin-top: -20px;
+   font-size: 20px;
+   text-align: center;
+   border-bottom: 1px;
+}
+header button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+    cursor: pointer;
+
+}
+.main .container .card{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .container .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+
+}
+.main .container.card.right {
+    flex: 0 0 70%;
+    height: 400px;
+    width: 300px;
+    margin-top: 5px;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer .services{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service {
+    margin-right: 30px;
+
+}
+footer .services .service .p{
+max-width: 300px;
+}
+footer #contact{
+    color:rgb(180,180,180);
+}
+footer h1{
+    padding-bottom: 5px;
+    width: 20%;
+    border-bottom: 1px solid #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
